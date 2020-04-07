@@ -12,19 +12,27 @@ for more info regarding list comprehensions.
 
 y = []
 
-print (y)
+for x in range(5):
+    print(x + 1,)
+
+print ('\n', y, '\n')
 
 # Write a list comprehension to produce the cubes of the numbers 0-9:
 # [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
 
 y = []
 
-print(y)
+for i in range(10):
+    print(i**3, '\n')
+
+print(y, '\n')
 
 # Write a list comprehension to produce the uppercase version of all the
 # elements in array a. Hint: "foo".upper() is "FOO".
 
 a = ["foo", "bar", "baz"]
+for x in a:
+    print(x.upper(), '\n')
 
 y = []
 
