@@ -49,6 +49,6 @@ for i in x:
     else:
         print('odd')
 # What do you need between the square brackets to make it work?
-y = [x]
+y = []
 
 print(y)
